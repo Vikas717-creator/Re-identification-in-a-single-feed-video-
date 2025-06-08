@@ -42,22 +42,22 @@ venv\Scripts\activate  # Windows
 source venv/bin/activate  # macOS/Linux
 
 ### 3. 📦 Install Dependencies
-If you have a requirements.txt, run:
+- If you have a requirements.txt, run:
 
 pip install -r requirements.txt
 
-If not, manually install the required packages:
+- If not, manually install the required packages:
 
 pip install ultralytics opencv-python torch torchvision numpy
 
 ✅ Works on CPU — no GPU needed!
 
 ### ▶️ How to Run
-Make sure best.pt and 15sec_input_720p.mp4 are present.
+- Make sure best.pt and 15sec_input_720p.mp4 are present.
 
-python main.py
+- python main.py
 
-Output video will be saved at:
+- Output video will be saved at:
 
 output/output_with_tracking.mp4
 
@@ -76,7 +76,7 @@ Uses pose embeddings to prevent ID switching
 Draws bounding boxes, player IDs, trails, and a minimap (optional)
 
 ## ❗ Troubleshooting
-1. Getting .predict error? → Ensure you're using YOLO(model_path) from ultralytics, not torch.load().
+1.Getting .predict error? → Ensure you're using YOLO(model_path) from ultralytics, not torch.load().
 
 2.Slow on CPU? → Resize frames or use a shorter video.
 
