@@ -62,7 +62,6 @@ output/output_with_tracking.mp4
 ## 🧠 How It Works
 🔍 Step 1: Detection (YOLOv8)
 Loads best.pt model
-
 Detects players in each frame
 
 🎯 Step 2: Tracking (Deep SORT)
