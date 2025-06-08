@@ -49,12 +49,14 @@ pip install -r requirements.txt
 If not, manually install the required packages:
 
 pip install ultralytics opencv-python torch torchvision numpy
+
 ✅ Works on CPU — no GPU needed!
 
 ### ▶️ How to Run
 Make sure best.pt and 15sec_input_720p.mp4 are present.
 
 python main.py
+
 Output video will be saved at:
 
 output/output_with_tracking.mp4
