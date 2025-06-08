@@ -9,21 +9,24 @@ A Python-based modular system for real-time **player detection**, **tracking**, 
 # Project Structure
 player-reid-system/
 │
-├── main.py                        # Main runner script
+├── main.py # Main runner script
+│
 ├── detector/
-│   └── yolo_detector.py          # Player detection (YOLOv8)
+│ └── yolo_detector.py # YOLOv8 detection module
 │
 ├── tracking/
-│   ├── deep_sort_wrapper.py      # Object tracking (Deep SORT)
-│   └── pose_reid.py              # Pose-based Re-ID
+│ ├── deep_sort_wrapper.py # Deep SORT tracker wrapper
+│ └── pose_reid.py # Pose-based Re-ID module
 │
 ├── visualizations/
-│   ├── trail_overlay.py          # Draw trails
-│   └── minimap.py                # Show minimap (optional)
+│ ├── trail_overlay.py # Trail drawing logic
+│ └── minimap.py # Optional minimap renderer
 │
-├── best.pt                       # YOLOv8 trained weights
-├── 15sec_input_720p.mp4          # Sample input video
+├── best.pt # YOLOv8 trained weights (players)
+├── 15sec_input_720p.mp4 # Sample input video
+│
 └── output/
+└── output_with_tracking.mp4 # Output video will be saved here
 ---
 
 ## ⚙️ Setup Instructions
