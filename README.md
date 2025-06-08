@@ -9,7 +9,7 @@ A Python-based modular system for real-time **player detection**, **tracking**, 
 # Project Structure
 player-reid-system/
 
-├── main.py                      # Main runner script
+├── main.py                      ## Main runner script
 
 ├── best.pt                      # YOLOv8 trained weights
 
