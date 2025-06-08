@@ -8,8 +8,11 @@ A Python-based modular system for real-time **player detection**, **tracking**, 
 ---
 # Project Structure
 player-reid-system/
+
 ├── main.py                      # Main runner script
+
 ├── best.pt                      # YOLOv8 trained weights
+
 ├── 15sec_input_720p.mp4         # Sample input video
 
 ├── detector/
