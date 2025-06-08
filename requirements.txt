@@ -1,0 +1,5 @@
+ultralytics==8.0.178
+opencv-python
+deep_sort_realtime
+mediapipe
+numpy
