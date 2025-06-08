@@ -30,6 +30,13 @@ player-reid-system/
 │   └── output_with_tracking.mp4   # Tracked video output (generated after running)
 
 ---
+## Input Video Link
+
+https://drive.google.com/file/d/1TDcND31fvEDvcnZCaianTxJrmT8q7iIi/view?usp=drive_link
+
+## Trained Ultralytics YOLOv11 model link
+
+https://drive.google.com/file/d/1-5fOSHOSB9UXyP_enOoZNAMScrePVcMD/view
 
 ## ⚙️ Setup Instructions
 
