@@ -8,25 +8,23 @@ A Python-based modular system for real-time **player detection**, **tracking**, 
 ---
 # Project Structure
 player-reid-system/
-│
-├── main.py # Main runner script
-│
+├── main.py                      # Main runner script
+├── best.pt                      # YOLOv8 trained weights
+├── 15sec_input_720p.mp4         # Sample input video
+
 ├── detector/
-│ └── yolo_detector.py # YOLOv8 detection module
-│
+│   └── yolo_detector.py         # YOLOv8-based player detection
+
 ├── tracking/
-│ ├── deep_sort_wrapper.py # Deep SORT tracker wrapper
-│ └── pose_reid.py # Pose-based Re-ID module
-│
+│   ├── deep_sort_wrapper.py     # Deep SORT object tracker
+│   └── pose_reid.py             # Pose-based Re-Identification
+
 ├── visualizations/
-│ ├── trail_overlay.py # Trail drawing logic
-│ └── minimap.py # Optional minimap renderer
-│
-├── best.pt # YOLOv8 trained weights (players)
-├── 15sec_input_720p.mp4 # Sample input video
-│
-└── output/
-└── output_with_tracking.mp4 # Output video will be saved here
+│   ├── trail_overlay.py         # Draws trails for tracked players
+│   └── minimap.py               # Optional minimap visualization
+
+├── output/
+│   └── output_with_tracking.mp4 # Tracked video output (generated after running)
 ---
 
 ## ⚙️ Setup Instructions
@@ -40,9 +38,9 @@ cd player-reid-system
 ### 2. Optional  🧪 Create Virtual Environment
 python -m venv venv
 
-venv\Scripts\activate  # Windows
- OR
-source venv/bin/activate  # macOS/Linux
+- venv\Scripts\activate  # Windows
+#OR
+- source venv/bin/activate  # macOS/Linux
 
 ### 3. 📦 Install Dependencies
 - If you have a requirements.txt, run:
