@@ -24,7 +24,8 @@ player-reid-system/
 │   └── minimap.py               # Optional minimap visualization
 
 ├── output/
-│   └── output_with_tracking.mp4 # Tracked video output (generated after running)
+│   └── output_with_tracking.mp4  # Tracked video output (generated after running)
+
 ---
 
 ## ⚙️ Setup Instructions
